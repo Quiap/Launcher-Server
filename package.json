@@ -1,0 +1,30 @@
+{
+  "name": "launcher-server",
+  "version": "1.0.0",
+  "description": "the server for the launcher ",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quiap/Launcher-Server.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quiap/Launcher-Server/issues"
+  },
+  "homepage": "https://github.com/Quiap/Launcher-Server#readme",
+  "dependencies": {
+    "http": "0.0.1-security",
+    "socket.io": "^4.7.4"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.8",
+    "utf-8-validate": "^6.0.3"
+  }
+}
